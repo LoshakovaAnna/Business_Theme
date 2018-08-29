@@ -1,10 +1,7 @@
 @import url("fonts.css") all;
 @import url("reset.css") all;
 @import url("font-awesome.min.css") all;
-/*
-.wrap{
-    min-width: 1170px;
-}*/
+
 .centr-position{
     width: 1170px;
     margin: 0 auto;
@@ -13,7 +10,6 @@
     display: flex;
     flex-direction: column;
 }
-
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -25,9 +21,8 @@
     margin: 0 auto;
 }
 
-.banner{
-    display: flex;
-    flex-direction: row;
+
+.header{
     padding: 30px 0;
 }
 .logo{
@@ -44,41 +39,37 @@
     text-align: center;
 }
 .menu-nav li:last-child .menu-link{
-        padding-right: 16px;
-        padding-left: 16px
-    }
+    padding-right: 16px;
+    padding-left: 16px
+}
 .menu-link:hover{
     color:#ffffff;
     background-color: #ffbb42;
-    border: 1px solid #ffbb42;
     border-radius: 1px;
 }
 .menu-nav{
-   
-    display: flex;
-    flex-direction: row;
     justify-content:space-between;
-
-   flex-grow: 10;
-
- 
+    flex-grow: 10;
     width: 807px;
 }
 
-.service{
+
+
+
+.banner{
     
     background-image: linear-gradient(to bottom, #709dca 70%, #ffffff 30%);
     height: 790px;
     text-align: center;
 }
-.service-title{
+.banner-title{
     padding-top: 111px;
     font-size: 35px;
     line-height: 24px;
     color: #ffffff;
     text-transform: uppercase;
 }
-.service-text{
+.banner-text{
     color:#ffffff;
     font-size: 16px;
     line-height: 24px;
@@ -86,8 +77,6 @@
 
 .requesta-quote{
     margin-top: 37px;
-    display: flex; 
-    flex-direction: row; 
     justify-content:center;
 }
 
@@ -121,29 +110,25 @@ input::placeholder {
 .icon-i{ 
     font-family: "FontAwesome-Webfont";
     color: #6e6e6e;
+    font-size: 16px;
   
     width: 20px;
     background-color: #ffffff;
-    display: block;
-    font-size: 16px;
+    display: block;   
     padding: 15px;
     border-top-left-radius: 2px;
-    border-bottom-left-radius: 2px;
-     
-     
-    }
+    border-bottom-left-radius: 2px;     
+}
 .input-block{
     display: flex; 
-    margin-right: 10px;
-   
+    margin-right: 10px;   
     border-radius: 4px;
 }
 
  
 .img-block-laptop{
     position: relative;
-    margin-top: 66px;
-    
+    margin-top: 66px;    
 }
 .img-laptop{
     display: block;
@@ -152,34 +137,30 @@ input::placeholder {
 .img-on-laptop{
     position: absolute;
     top:18px;
-    left:364px;
-    
+    left:364px;    
 }
-
 .ellipse{
     margin-top: 22px;
 }
-.header-about-us{
-   
+
+.header-services{   
     color: #394b50;
     font-family: 'Open Sans';
     font-size: 16px;
-    font-weight: 400;
     line-height: 22px;
     text-align: center;
 }
-.h1-about-us{
+.title-services{
     font-family: 'Gotham Black';
     font-size: 30px;
     font-weight: 900;
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
-.p-about-us{
+.text-services{
     font-family: "Open Sans";
-
 }
-.conent-services{
+.content-services{
     margin-top: 88px;
 }
 
@@ -194,10 +175,8 @@ input::placeholder {
 .icon-content{
     font-family: "Font Awesome";
     font-size: 50px;
-    font-weight: 400;
     line-height: 22px;
     width:83px;
-   
    
     color: #ffffff;
     -webkit-text-stroke: 2px #709DCA; 
@@ -208,40 +187,31 @@ input::placeholder {
 
 
 .header-block-icon-cont{
-    color: #394b50;
-    
+    color: #394b50;    
     font-family: 'Lato Bold';
-    font-size: 16px;
-    
+    font-size: 16px;    
     line-height: 22px;
     text-transform: uppercase;
     padding-bottom: 13px;
 }
-
 .text-icon-block{
     color: #7b7b7b;
     font-family: "Open Sans Regular";
-    font-size: 13px;
-  
+    font-size: 13px;  
     line-height: 22px;
     width: 477px;
-} 
+}  
 
-   
-   
- 
- .ab{
+
+ .about-us-title{
     color: #ffffff;
     font-family: "Gotham Black";
-    font-size: 30px;
-   
+    font-size: 30px;   
     line-height: 22px;
     text-transform: uppercase;
-    /* Text style for "ABout us" */
     letter-spacing: -0.75px;
  }
- .tex{
-        
+ .about-us-text{        
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 13px;
@@ -251,9 +221,9 @@ input::placeholder {
     margin-top: 28px;
     margin-bottom: 20px;
  }
- .read-more{
+ .read-more-btn{
     border: 1px solid #e7ad48;
-   text-align: center;
+    text-align: center;
         
     color: #ffffff;
     font-family: "Lato";
@@ -264,34 +234,30 @@ input::placeholder {
     height: 46px;
     margin-top: 36px;
  }
- .padd-read{ margin-top: 16px;}
- 
+.padd-read{ 
+    margin-top: 16px;
+} 
 
- .choos-yours-pricing   {
- /*  background-color: #ffc155;
-      background-image: url("../table.png");
-      background-repeat: no-repeat;*/
-     /* background: #ffc155 url(../table.png) no-repeat;*/
+.about-us  {
     height: 623px;
 }
-.block-choose{
+.left-block-about-us{
     background: #ffc155 ;
     padding-left: 80px;
     padding-top: 166px;
 }
 .imgb{
-    background-image: url(../table.png);
+    background-image: url(../img/table.png);
     background-repeat:  no-repeat;
     background-size: cover; 
 }
-.imgb, .block-choose{
+.imgb, .left-block-about-us{
     width:50%;
     min-width:585px;
 }
 
-
 /*-------------------------*/
-.jump{
+.choos-yours-pricing {
     background-color: #e7edf3;
 }
 .header-choos{
@@ -305,7 +271,7 @@ input::placeholder {
     line-height: 22px;
     text-align: center;
 }
-.ch1{
+.title-choos{
     color: #394b50;
     font-family: "Gotham Black";
     font-size: 30px;
@@ -313,7 +279,7 @@ input::placeholder {
     letter-spacing: -0.75px;
     text-transform: uppercase;
 }
-.ch2{
+.text-choos{
     font-family: "Lato Light";
     font-weight: 300; 
 }
@@ -337,7 +303,7 @@ input::placeholder {
 
 
 }
-.lateral-panel{
+.alt-panel{
     width: 390px;
     height: 30px; 
 }
@@ -446,7 +412,28 @@ input::placeholder {
     
     justify-content: space-around;
     margin-bottom: 94px;
+    position: relative;
+ 
 }
+.arrow{
+    position: absolute;
+    top:-30px;
+}
+.arrow:nth-child(1){
+    
+    left:220px;
+}
+.arrow:nth-child(2){
+   
+    right:220px;
+    
+}
+.arrow:nth-child(3){
+ 
+    top:70px;
+    left:520px;
+}
+
 .step-block{
     width: 213px;
     height: 301px;
@@ -525,8 +512,8 @@ input::placeholder {
 
 }
 .happy-client-block{
-    width: 567px;
-    height: 241px;
+    width: 537px;
+    height: 200px;
     background-color: #ffffff;
     padding-top: 43px;
     padding-left: 30px;
@@ -568,7 +555,7 @@ input::placeholder {
 /* Style for "newsletter" */
 .newsletter-block{
     padding-top: 154px;
-        padding-bottom: 38px;
+    padding-bottom: 38px;
 
     color: #394b50;
     font-family: "Open Sans";
@@ -592,10 +579,24 @@ input::placeholder {
     font-family: "Open Sans Light";
     font-weight: 300;
 }
+.gray-border{
+    border: 1px solid #cbcbcb;
+}
+.just-cont-cent{
+    justify-content: center;
+}
+.submit-newsletter{
+    width: 218px;
+    height: 47px;
+    border-radius: 2px;
+}
+.newsletter-inp{
+    height: 45px;
+}
 /***************/
 
 .map{
-    background-image: url('../map.png');
+    background-image: url('../img/map.png');
     background-size: cover;
     height: 580px;
     margin-top: 53px;
@@ -608,7 +609,7 @@ input::placeholder {
     height: 338px;
    
     
-    background-image: url("../Shape_4.png");
+    background-image: url("../img/Shape_4.png");
     background-repeat: no-repeat;
     background-position: 50%;
     background-position-y: 40px;
