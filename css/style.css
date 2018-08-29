@@ -233,6 +233,8 @@ input::placeholder {
  }
 .padd-read{ 
     margin-top: 16px;
+    color: #ffffff;
+    
 } 
 
 .about-us  {
@@ -428,6 +430,9 @@ input::placeholder {
     font-size: 72px;
     margin: 0 auto;
     margin-bottom: 100px;
+}
+.icon-link{
+    color: #ffffff;
 }
 .step-title{
     font-size: 20px;
