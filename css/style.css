@@ -27,7 +27,7 @@
 
 .banner{
     display: flex;
-    display: row;
+    flex-direction: row;
     padding: 30px 0;
 }
 .logo{
@@ -50,7 +50,7 @@
 .menu-link:hover{
     color:#ffffff;
     background-color: #ffbb42;
-    border: 1 solid #ffbb42;
+    border: 1px solid #ffbb42;
     border-radius: 1px;
 }
 .menu-nav{
@@ -87,7 +87,7 @@
 .requesta-quote{
     margin-top: 37px;
     display: flex; 
-    direction: row; 
+    flex-direction: row; 
     justify-content:center;
 }
 
@@ -133,9 +133,9 @@ input::placeholder {
      
     }
 .input-block{
-    display: flex; direction: row; 
+    display: flex; 
     margin-right: 10px;
-    border: 3 solid black;
+   
     border-radius: 4px;
 }
 
@@ -234,7 +234,7 @@ input::placeholder {
     color: #ffffff;
     font-family: "Gotham Black";
     font-size: 30px;
-    font-weight: 400;
+   
     line-height: 22px;
     text-transform: uppercase;
     /* Text style for "ABout us" */
@@ -245,7 +245,6 @@ input::placeholder {
     color: #ffffff;
     font-family: "Open Sans";
     font-size: 13px;
-    font-weight: 400;
     line-height: 24px;
     width: 505px;
     height: 157px;
@@ -392,7 +391,7 @@ input::placeholder {
     font-size:14px;
     line-height: 10px;
     padding-top: 15px;
-    border: 1 solid #ffbb42;
+    border: 1px solid #ffbb42;
    
     border-radius: 1px;
     
@@ -485,7 +484,7 @@ input::placeholder {
     width:163px;
     height: 44px;
     background-color: #ffbb42;
-    border: 1 solid #ffbb42;
+    border: 1px solid #ffbb42;
     border-radius: 1px;
     margin: 0 auto;
     
