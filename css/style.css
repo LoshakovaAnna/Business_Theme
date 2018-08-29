@@ -54,8 +54,6 @@
 }
 
 
-
-
 .banner{
     
     background-image: linear-gradient(to bottom, #709dca 70%, #ffffff 30%);
@@ -202,7 +200,6 @@ input::placeholder {
     width: 477px;
 }  
 
-
  .about-us-title{
     color: #ffffff;
     font-family: "Gotham Black";
@@ -256,7 +253,7 @@ input::placeholder {
     min-width:585px;
 }
 
-/*-------------------------*/
+
 .choos-yours-pricing {
     background-color: #e7edf3;
 }
@@ -300,8 +297,6 @@ input::placeholder {
     height: 444px;
     border: 1px solid #ccd5df;
     background-color: #ffffff;
-
-
 }
 .alt-panel{
     width: 390px;
@@ -317,7 +312,6 @@ input::placeholder {
     font-family: 'Lato Light'
 }
 .price{ 
-  /*  line-height: 22px;*/
     color: #ffbb42;
     font-family: "Lato Bold";
     font-size: 60px;
@@ -357,10 +351,8 @@ input::placeholder {
     font-size:14px;
     line-height: 10px;
     padding-top: 15px;
-    border: 1px solid #ffbb42;
-   
-    border-radius: 1px;
-    
+    border: 1px solid #ffbb42;   
+    border-radius: 1px;    
 }
 
 .panel:hover{
@@ -409,31 +401,24 @@ input::placeholder {
 }
 
 .steps{
-    
     justify-content: space-around;
     margin-bottom: 94px;
     position: relative;
- 
 }
 .arrow{
     position: absolute;
     top:-30px;
 }
-.arrow:nth-child(1){
-    
+.arrow:nth-child(1){    
     left:220px;
 }
-.arrow:nth-child(2){
-   
-    right:220px;
-    
+.arrow:nth-child(2){   
+    right:220px;    
 }
-.arrow:nth-child(3){
- 
+.arrow:nth-child(3){ 
     top:70px;
     left:520px;
 }
-
 .step-block{
     width: 213px;
     height: 301px;
@@ -450,7 +435,6 @@ input::placeholder {
     line-height: 22px;
     text-transform: uppercase;
     font-family: 'Lato Bold';
-
 }
 .step-text{
     font-size: 13px;
@@ -460,11 +444,11 @@ input::placeholder {
     margin-top: 30px;
 }
 .text-btn-step{
-        font-family: 'Lato';
-        font-size: 14px;
-        color: #ffffff;
-        padding-top: 15px;
-        text-transform: uppercase;
+    font-family: 'Lato';
+    font-size: 14px;
+    color: #ffffff;
+    padding-top: 15px;
+    text-transform: uppercase;
 }
 .btn-get-started-step{
     text-align: center;
@@ -473,17 +457,8 @@ input::placeholder {
     background-color: #ffbb42;
     border: 1px solid #ffbb42;
     border-radius: 1px;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;  
 }
-
-
-
-
-
-
-
 
 .happy-clients{
     background-color: #ffc155;
@@ -507,9 +482,7 @@ input::placeholder {
 }
 .clients-block{
     margin-top: 62px;
-    margin-right: -100px;
-    
-
+    margin-right: -100px;  
 }
 .happy-client-block{
     width: 537px;
@@ -523,14 +496,13 @@ input::placeholder {
     text-align: left;
     margin-right: 36px;
     margin-bottom: 20px;
-
 }
 .comment-client{
     width: 344px;
     margin-left: 31px;
 }
 .comment-client::before{
-    content:"\201C";	/* &#8220; */
+    content:"\201C";	
 }
 .comment-client::after,
 .comment-client::before{
@@ -550,9 +522,7 @@ input::placeholder {
 .alt-name-client{
     color: #f6772c;
 }
-/*****************/
 
-/* Style for "newsletter" */
 .newsletter-block{
     padding-top: 154px;
     padding-bottom: 38px;
@@ -565,7 +535,6 @@ input::placeholder {
     margin: 0 auto;
     text-align: center;
 }
-
 .newsletter-title{
     font-family: "Gotham Black";
     font-size: 30px;
@@ -607,20 +576,16 @@ input::placeholder {
 .address{
     width: 1170px;
     height: 338px;
-   
-    
+       
     background-image: url("../img/Shape_4.png");
     background-repeat: no-repeat;
     background-position: 50%;
     background-position-y: 40px;
-/*   left: 443px;*/
     text-align: center;
     color: #aeb7ba;
     font-family: "Open Sans";
     font-size: 13px;
     line-height: 24px;
-  
-
 }
 .address-title{
     padding-top: 107px;
@@ -637,8 +602,9 @@ input::placeholder {
     width: 50px;
 }
 
-
-.footer{font-size: 30px;}
+.footer{
+    font-size: 30px;
+}
 .menu-footer {
     width: 808px;
     margin: 0 auto;
@@ -648,24 +614,20 @@ input::placeholder {
     font-family: 'Lato';
     font-size: 22.52px;
     line-height: 24.15px;
-    color: #394b50;
-   
+    color: #394b50;   
     text-decoration: none;
 }
 .footer-block-tel{
     width: 180px;
-    margin: 22px auto;
-   
+    margin: 22px auto;   
 }
-.footer-icon{
-   
+.footer-icon{   
     color: #709dca;
     font-family: "Font Awesome";
     font-size: 18px;
     line-height: 24.99px;
 }
 .footer-icon:hover{
-
     color: #ffc155;
 }
 .footer-social-icon{
@@ -685,7 +647,7 @@ input::placeholder {
     line-height: 24px;
     text-align: center;
     padding-top: 15px;
-    }
+}
 .copyright-link{
     text-decoration: none;
     color: #ffffff;
