@@ -1,6 +1,6 @@
-@import url("fonts.css") all;
-@import url("reset.css") all;
-@import url("font-awesome.min.css") all;
+@import url('fonts.css') all;
+@import url('reset.css') all;
+@import url('font-awesome.min.css') all;
 
 .centr-position{
     width: 1170px;
@@ -21,15 +21,13 @@
     margin: 0 auto;
 }
 .title{
-    font-family: "Gotham Black";
+    font-family: 'Gotham Black';
     font-size: 30px;
     line-height: 22px;    
     letter-spacing: -0.75px;
-    text-transform: uppercase;
-    
+    text-transform: uppercase;    
     padding-bottom: 5px;
 }
-
 
 .header{
     padding: 30px 0;
@@ -39,7 +37,7 @@
 }
 .menu-link{
     text-decoration: none;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 13.5px;
     text-transform: uppercase;
     color: #868686;
@@ -57,7 +55,7 @@
     border-radius: 1px;
 }
 .menu-nav{
-    justify-content:space-between;
+    justify-content: space-between;
     flex-grow: 10;
     width: 807px;
 }
@@ -116,7 +114,7 @@ input::placeholder {
 
 
 .icon-i{ 
-    font-family: "FontAwesome-Webfont";
+    font-family: 'FontAwesome-Webfont';
     color: #6e6e6e;
     font-size: 16px;
   
@@ -162,7 +160,7 @@ input::placeholder {
     font-weight: 900;
 }
 .text-services{
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
 }
 .content-services{
     margin-top: 88px;
@@ -199,19 +197,18 @@ input::placeholder {
 }
 .text-icon-block{
     color: #7b7b7b;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 13px;  
     line-height: 22px;
     width: 477px;
 }  
 
- .about-us-title{
-    color: #ffffff;
-   
- }
+.about-us-title{
+    color: #ffffff;   
+}
  .about-us-text{        
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 13px;
     line-height: 24px;
     width: 505px;
@@ -225,7 +222,7 @@ input::placeholder {
     text-align: center;
         
     color: #ffffff;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -267,7 +264,7 @@ input::placeholder {
     padding-bottom: 47px;
     margin:0 auto;
     color: #75888d;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 18px;
     font-weight: 300;
     line-height: 22px;
@@ -278,12 +275,12 @@ input::placeholder {
     
 }
 .text-choos{
-    font-family: "Lato Light";
+    font-family: 'Lato Light';
     font-weight: 300; 
 }
 
 .panel{
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 14px;
     text-transform: uppercase;
     text-align: center;
@@ -314,7 +311,7 @@ input::placeholder {
 }
 .price{ 
     color: #ffbb42;
-    font-family: "Lato Bold";
+    font-family: 'Lato Bold';
     font-size: 60px;
 
 }
@@ -336,7 +333,7 @@ input::placeholder {
     width:330px;
     border-top:1px solid #e2e9f0;
     margin: 0 auto;
-    font-family: "Lato"
+    font-family: 'Lato'
 }
 
 .btn-get-started{
@@ -395,7 +392,7 @@ input::placeholder {
 }
 .how-it-head-title{
     color: #394b50;
-    font-family: "Lato Light";
+    font-family: 'Lato Light';
     font-size: 18px;
     line-height: 22px;
 }
@@ -427,7 +424,7 @@ input::placeholder {
 }
 
 .step-block::after {
-    content: "";
+    content: '';
     position: absolute;
     width: 128px;
     height: 32px;
@@ -512,7 +509,7 @@ input::placeholder {
     padding-left: 30px;
     color: #7b7b7b;
     font-size: 13px;
-	font-family: "Open Sans";
+	font-family: 'Open Sans';
     line-height: 22px;
     text-align: left;
     margin-right: 36px;
@@ -526,8 +523,8 @@ input::placeholder {
 .comment-client::after,
 .comment-client::before{
     position: absolute;
-    content: "\201C";
-    font-family: "BrandonGrotesque Black", Arial, Helvetica, sans-serif;
+    content: '\201C';
+    font-family: 'BrandonGrotesque Black', Arial, Helvetica, sans-serif;
     font-size: 30px; 
 }
 .comment-client::before{  
@@ -542,7 +539,7 @@ input::placeholder {
 
 .name-client{
     color: #99a9ae;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 14px;
     line-height: 22px;
     text-transform: uppercase;
@@ -558,7 +555,7 @@ input::placeholder {
     padding-bottom: 38px;
 
     color: #394b50;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 16px;
     font-weight: 300;
     line-height: 22px;
@@ -568,7 +565,7 @@ input::placeholder {
 
 .newsletter-text
 {
-    font-family: "Open Sans Light";
+    font-family: 'Open Sans Light';
     font-weight: 300;
 }
 .gray-border{
@@ -601,20 +598,20 @@ input::placeholder {
     width: 1170px;
     height: 338px;
        
-    background-image: url("../img/Shape_4.png");
+    background-image: url('../img/Shape_4.png');
     background-repeat: no-repeat;
     background-position: 50%;
     background-position-y: 40px;
     text-align: center;
     color: #aeb7ba;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 13px;
     line-height: 24px;
 }
 .address-title{
     padding-top: 107px;
     color: #ffffff;
-    font-family: "Lato";
+    font-family: 'Lato';
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
@@ -674,7 +671,7 @@ input::placeholder {
 }
 .copyright-text{
     color: #ffffff;
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 13px;
     line-height: 24px;
     text-align: center;
