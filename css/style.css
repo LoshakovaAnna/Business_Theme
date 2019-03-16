@@ -1,6 +1,6 @@
-@import url('fonts.css') all;
-@import url('reset.css') all;
-@import url('font-awesome.min.css') all;
+@import url('./fonts.css') all;
+@import url('./reset.css') all;
+@import url('./font-awesome.min.css') all;
 
 .centr-position{
     width: 1170px;
